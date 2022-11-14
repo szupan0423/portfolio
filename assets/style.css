@@ -1,0 +1,19 @@
+body {
+    background: rgb(220,220,220);
+    background: radial-gradient(circle, rgba(220,220,220,1) 0%, rgba(247,248,249,1) 100%);
+    margin:auto;
+}
+
+.float-container {
+    border: 3px;
+    padding: 20px;
+    margin: 20px;
+    align-items: baseline;
+}
+
+.float-child {
+    width: 45%;
+    float: left;
+    padding: 1px;
+    border: 2px;
+}
